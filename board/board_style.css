@@ -1,0 +1,81 @@
+html,
+body {
+  margin: 0;
+}
+@font-face {
+  font-family: 'MaplestoryOTFBold';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-04@2.1/MaplestoryOTFBold.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+* {
+  box-sizing: border-box;
+  font-family: "MaplestoryOTFBold";
+}
+body {
+  align-items: center;
+  justify-content: center;
+  background: #2ec1ac;
+}
+input, ul, p {
+  all: unset;
+}
+.container{
+    margin: 80px auto auto auto;
+    padding: 50px;
+    text-align: center;
+    align-items: center;
+    width: 600px;
+    height: 500px;
+    box-shadow: 0 0 25px rgba(0, 0, 0, 0.25);
+    background: white;
+    position: relative;
+}
+.tdtd{
+    margin: 0 5px 20px 5px;
+    width: 200px;
+    height: 60px;
+    color: #2ec1ac;
+}
+a {
+    text-decoration: none;
+    color:cornflowerblue;
+}
+#gotoWrite {
+    position: absolute;
+    bottom: 50px;
+    right: 75px;
+    font-size: 20px;
+    opacity: 0.7;
+}
+#gotoWrite:hover {
+    opacity: 1;
+}
+.dtdt {
+    width: 100px;
+    text-align: left;
+    padding-left: 4px;
+    font-size: 15px;
+    opacity: 0.6;
+}
+#thattr {
+    height: 50px;
+    text-align: left;
+}
+#submitButton {
+    position: absolute;
+    bottom: 100px;
+    right: 75px;
+    font-size: 20px;
+    opacity: 0.7;
+    color:cornflowerblue;
+    border: none;
+    background-color: white;
+}
+#submitButton:hover {
+    opacity: 1;
+}
+.flexcon {
+  display: flex;
+  margin-bottom: 10px;
+}
